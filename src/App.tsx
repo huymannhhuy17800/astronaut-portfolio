@@ -1,4 +1,5 @@
 import "./App.css";
+import Hero from "./components/hero";
 import NavBar from "./components/navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       {/* navbar */}
       <NavBar />
       {/* hero */}
+      <Hero />
       {/* about */}
       {/* projects */}
       {/* experience */}
