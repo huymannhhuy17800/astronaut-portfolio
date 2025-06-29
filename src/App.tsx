@@ -1,6 +1,7 @@
 import "./App.css";
-import Hero from "./components/hero";
-import NavBar from "./components/navbar";
+import About from "./sections/about";
+import Hero from "./sections/hero";
+import NavBar from "./sections/navbar";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* hero */}
       <Hero />
       {/* about */}
+      <About />
       {/* projects */}
       {/* experience */}
       {/* testimonial */}

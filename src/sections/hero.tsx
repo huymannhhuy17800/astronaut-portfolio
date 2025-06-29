@@ -1,13 +1,13 @@
 import React, { Suspense } from "react";
-import { FlipWords } from "./flip-word";
+import { FlipWords } from "../components/flip-word";
 import { motion } from "motion/react";
-import ParallaxBackground from "./parallax-background";
+import ParallaxBackground from "../components/parallax-background";
 import { Canvas, useFrame } from "@react-three/fiber";
-import Astronaut from "./astronaut";
-import { Float, OrbitControls } from "@react-three/drei";
+import Astronaut from "../components/astronaut";
+import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
-import Loader from "./loader";
+import Loader from "../components/loader";
 
 const HeroText = () => {
   const words = ["Secure", "Modern", "Scalable"];
