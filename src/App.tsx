@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./sections/about";
 import Hero from "./sections/hero";
 import NavBar from "./sections/navbar";
+import Projects from "./sections/projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* about */}
       <About />
       {/* projects */}
+      <Projects />
       {/* experience */}
       {/* testimonial */}
       {/* contact */}
