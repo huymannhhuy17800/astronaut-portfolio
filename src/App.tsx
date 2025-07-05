@@ -3,6 +3,7 @@ import About from "./sections/about";
 import Hero from "./sections/hero";
 import NavBar from "./sections/navbar";
 import Projects from "./sections/projects";
+import WorkExperience from "./sections/work-experiences";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* projects */}
       <Projects />
       {/* experience */}
+      <WorkExperience />
       {/* testimonial */}
       {/* contact */}
       {/* footer */}
