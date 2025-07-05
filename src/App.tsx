@@ -1,5 +1,7 @@
 import "./App.css";
 import About from "./sections/about";
+import Contact from "./sections/contact";
+import Footer from "./sections/footer";
 import Hero from "./sections/hero";
 import NavBar from "./sections/navbar";
 import Projects from "./sections/projects";
@@ -22,9 +24,9 @@ function App() {
       {/* testimonial */}
       <Testimonial />
       {/* contact */}
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
+      <Contact />
       {/* footer */}
+      <Footer />
     </div>
   );
 }
